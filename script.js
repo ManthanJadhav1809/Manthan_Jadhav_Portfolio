@@ -36,8 +36,8 @@ const container = document.getElementById('container')
 let audiohi = document.getElementById("myAudio");
 
 
-// container.style.display = 'none'
-// header.style.display = 'none'
+container.style.display = 'none'
+header.style.display = 'none'
 
 audiohi.play();
 setTimeout(() => {
