@@ -31,20 +31,20 @@ function addReposToCard(repos) {
 }
 
 const header = document.getElementById('header');
+const footer = document.getElementById('footer');
 const splashImg = document.getElementById('splashImg')
-const container = document.getElementById('container')
-let audiohi = document.getElementById("myAudio");
+const maincode = document.getElementById('maincode')
 
 
-container.style.display = 'none'
+maincode.style.display = 'none'
 header.style.display = 'none'
+footer.style.display = 'none'
 
-audiohi.play();
 setTimeout(() => {
-    audiohi.pause();
     splashImg.style.display = 'none';
-    container.style.display = 'flex';
+    maincode.style.display = 'block';
     header.style.display = 'flex';
+    footer.style.display = 'block';
 
 }, 3500)
 
@@ -66,3 +66,23 @@ document.addEventListener('scroll', () => {
     }
 
 })
+
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
