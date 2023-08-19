@@ -49,7 +49,7 @@ setTimeout(() => {
     header.style.display = 'flex';
     footer.style.display = 'block';
     myBtn.style.display = 'block'
-
+contact.style.display = 'block'
 }, 3500)
 
 
