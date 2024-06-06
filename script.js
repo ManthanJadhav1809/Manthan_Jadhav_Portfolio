@@ -47,6 +47,7 @@ myBtn.style.display = "block";
 contact.style.display = "block";
 }, 4500)
 
+
 // Sticky scrollbar
 
 header.classList.toggle("sticky", window.scrollY > 100);
@@ -254,8 +255,3 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// audio hi
-window.addEventListener('DOMContentLoaded', (event) => {
-  const hiAudio = document.getElementById('hiAudio');
-  hiAudio.play();
-});
