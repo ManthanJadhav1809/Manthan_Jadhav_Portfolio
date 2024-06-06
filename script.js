@@ -253,3 +253,9 @@ document.addEventListener('DOMContentLoaded', () => {
       certificationContainer.appendChild(certCard);
   });
 });
+
+// audio hi
+window.addEventListener('DOMContentLoaded', (event) => {
+  const hiAudio = document.getElementById('hiAudio');
+  hiAudio.play();
+});
