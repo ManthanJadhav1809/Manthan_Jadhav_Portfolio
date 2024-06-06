@@ -38,14 +38,14 @@ footer.style.display = "none";
 myBtn.style.display = "none";
 contact.style.display = "none";
 
-// setTimeout(() => {
-//  splashImg.style.display = 'none';
+setTimeout(() => {
+  splashImg.style.display = 'none';
 maincode.style.display = "block";
 header.style.display = "flex";
 footer.style.display = "block";
 myBtn.style.display = "block";
 contact.style.display = "block";
-// }, 4500)
+}, 4500)
 
 // Sticky scrollbar
 
@@ -113,65 +113,7 @@ const typed = new Typed(".multiple-text", {
 // project container
 document.addEventListener('DOMContentLoaded', () => {
   // Project data
-  // const projectData = [
-  //     {
-  //         projectId: 1,
-  //         projectImageUrl: "Images/project/mjrentify.png",
-  //         projectTitle: "MjRentify",
-  //         projectDesc: "MJ Rentify is a web application designed to streamline the rental property search process. Built using React for a dynamic front-end experience and Firebase for real-time database and authentication, it allows users to filter properties based on location, area, and number of bedrooms and bathrooms. The app integrates Firestore for data storage and React Router for seamless navigation. MJRentify enhances user experience by providing detailed property listings and facilitating easy communication between renters and property owners.",
-  //         projectGithubLink: "https://github.com/ManthanJadhav1809/MjRentify",
-  //         projectDemoLink: "https://mjrentify.web.app/",
-  //     },
-  //     {
-  //         projectId: 2, // Changed projectId to 2 to avoid duplication
-  //         projectImageUrl: "Images/project/blogpostWeb.png",
-  //         projectTitle: "BLOG POST WEBAPPLICATION",
-  //         projectDesc: `Designed and developed a React and Firebase-based social
-  //         media application enabling users to create, delete, update,
-  //         and interact with posts. Implemented user authentication,
-  //         real-time data storage, and dynamic post rendering using
-  //         React and Firebase. Ensured a responsive design for both
-  //         mobile and desktop users. incorporate features such as likes
-  //         to enhance the user experience. Firebase is implemented for
-  //         effective data storage, scalability, and high-performance data
-  //         retrieval`,
-  //         projectGithubLink: "https://github.com/ManthanJadhav1809/BlogWebsiteByMJ",
-  //         projectDemoLink: "https://blogproject-e5ad7.web.app/",
-  //     },
-  //     {
-  //       projectId: 3, 
-  //       projectImageUrl: "Images/project/fileMangement.png",
-  //       projectTitle: "FILE MANAGEMENT",
-  //       projectDesc: `Developed a web-based file management system using React and Firebase, enabling users to securely organize, upload, and manage files and folders. Implemented features such as user authentication, file storage.`,
-  //       projectGithubLink: "https://github.com/ManthanJadhav1809/File_Management_System",
-  //       projectDemoLink: "https://file-management-system-62d4a.web.app/",
-  //    },
-  //    {
-  //     projectId: 4, 
-  //     projectImageUrl: "Images/project/shopingWebsite.png",
-  //     projectTitle: "Shoping_Website",
-  //     projectDesc: `Swag_Of_India_Shoping_Website is a frontend project created with HTML, CSS, and JavaScript. It features an engaging and responsive design, offering a seamless shopping experience with intuitive navigation, product listings, and user-friendly interfaces`,
-  //     projectGithubLink: "https://github.com/ManthanJadhav1809/Swag_Of_India_Shoping_Website",
-  //     projectDemoLink: "https://manthanjadhav1809.github.io/Swag_Of_India_Shoping_Website/",
-  //    },
-  //    {
-  //     projectId: 5, 
-  //     projectImageUrl: "Images/project/expenseTracker.png",
-  //     projectTitle: "Expense Tracker",
-  //     projectDesc: `Expense Tracker is a React-based web application that helps users manage and track their expenses efficiently with an intuitive interface for adding and viewing transaction details.`,
-  //     projectGithubLink: "https://github.com/ManthanJadhav1809/ExpenseTracker",
-  //     projectDemoLink: "https://manthanjadhav1809.github.io/Swag_Of_India_Shoping_Website/index.html",
-  //    },
-  //    {
-  //     projectId: 6, 
-  //     projectImageUrl: "Images/project/quizApplication.png",
-  //     projectTitle: "Quiz Application",
-  //     projectDesc: `The Quiz Application, built with HTML, CSS, and JavaScript, offers an engaging and interactive platform for users to test their knowledge through various quizzes, featuring real-time feedback and user-friendly navigation`,
-  //     projectGithubLink: "https://github.com/ManthanJadhav1809/Quiz_application",
-  //     projectDemoLink: "https://manthanjadhav1809.github.io/Quiz_application/",
-  //    },
-     
-  // ];
+  
 
   const projectData = [
     {
