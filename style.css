@@ -460,7 +460,7 @@ body {
 }
 
 
-#certificationCard {
+.certificationCard {
     border-radius: 30px;
     /* border: 1px solid; */
     position: relative;
@@ -473,20 +473,20 @@ body {
 
 }
 
-#certificationCard:hover {
+.certificationCard:hover {
     box-shadow: 5px 5px 10px #030303;
     background-color: #5689ca;
 
 }
 
-#certificationCard div {
+.certificationCard div {
     visibility: hidden;
     opacity: 0;
     margin: 11px;
     padding: 0px;
 }
 
-#certificationCard:hover div {
+.certificationCard:hover div {
     visibility: visible;
     opacity: 1;
 }
@@ -498,7 +498,7 @@ body {
     border: 6.5px double black;
 }
 
-#certificationCard h4 {
+.certificationCard h4 {
     font-size: larger;
     margin-top: 10px;
     font-family: serif;
@@ -665,7 +665,7 @@ form textarea {
         margin: 20px;
     }
 
-    #certificationCard h4 {
+    .certificationCard h4 {
         font-size: 1.5rem;
         margin-top: 10px;
         font-family: serif;
