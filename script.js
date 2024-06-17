@@ -47,7 +47,6 @@ myBtn.style.display = "block";
 contact.style.display = "block";
 }, 4500)
 
-
 // Sticky scrollbar
 
 header.classList.toggle("sticky", window.scrollY > 100);
@@ -104,7 +103,7 @@ form.addEventListener("submit", (e) => {
 
 // text
 const typed = new Typed(".multiple-text", {
-  strings: ["Frontend Developer", "Web Developer","React.js Developer"],
+  strings: ["Frontend Developer", "Web Developer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
@@ -164,7 +163,15 @@ document.addEventListener('DOMContentLoaded', () => {
         projectDesc: "The Quiz Application, built with HTML, CSS, and JavaScript, offers an interactive platform for users to test their knowledge through various quizzes. It features real-time feedback and user-friendly navigation.",
         projectGithubLink: "https://github.com/ManthanJadhav1809/Quiz_application",
         projectDemoLink: "https://manthanjadhav1809.github.io/Quiz_application/",
-    }
+    },
+    {
+      projectId: 7,
+      projectImageUrl: "Images/project/CRUDAPP.png",
+      projectTitle: "MERN Stack CRUD Application",
+      projectDesc: "Developed a full-stack CRUD application using the MERN stack (MongoDB, Express.js, React.js, Node.js), featuring responsive design and secure API endpoints, hosted on Vercel.",
+      projectGithubLink: "https://github.com/ManthanJadhav1809/MernStackCRUDApp",
+      projectDemoLink: "https://mern-stack-crud-frontend-l9it.vercel.app/",
+  }
   ];
   
   // Getting the container element
@@ -185,6 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <button id="projectDemo">Project Demo</button>
               </div>
           </div>
+          
       `;
 
       // Adding event listeners
@@ -200,58 +208,3 @@ document.addEventListener('DOMContentLoaded', () => {
       projectCardContainer.appendChild(projectCard);
   });
 });
-
-
-// certification details add
-document.addEventListener('DOMContentLoaded', () => {
-  const certifications = [
-      {
-          imageUrl: "./Images/FrontEnd.jpg",
-          title: "Complete Front End Developer 2.0",
-          link: "https://skill-lync.com/certification/individual/paidlmo0shr29tgf"
-      },
-      {
-          imageUrl: "./Images/Practical Javascript.jpg",
-          title: "Practical Javascript",
-          link: "https://skill-lync.com/certification/individual/75j90scbqfkx4hn8"
-      },
-      {
-          imageUrl: "./Images/React js.jpg",
-          title: "React.JS",
-          link: "https://skill-lync.com/certification/individual/h8wi0e1t3upfr46m"
-      },
-      {
-          imageUrl: "./Images/javaSololearn.png",
-          title: "Java",
-          link: "https://www.sololearn.com/certificates/CC-X19H8PPM"
-      },
-      {
-          imageUrl: "./Images/JavaScriptSololearn.png",
-          title: "JavaScript",
-          link: "https://www.sololearn.com/certificates/CC-IDMHU4IU"
-      },
-      {
-          imageUrl: "./Images/WebDevelopmentSololearn.png",
-          title: "Web Development",
-          link: "https://www.sololearn.com/certificates/CC-HDTNKY7X"
-      }
-  ];
-
-  const certificationContainer = document.getElementById('certification');
-
-  certifications.forEach(cert => {
-      const certCard = document.createElement('div');
-      certCard.className = 'certificationCard';
-      
-      certCard.innerHTML = `
-          <img src="${cert.imageUrl}" id="CertificationImage" alt="${cert.title}" />
-          <h4>${cert.title}</h4>
-          <div>
-              <a id="viewCertificate" target="_blank" href="${cert.link}">View Certificate</a>
-          </div>
-      `;
-
-      certificationContainer.appendChild(certCard);
-  });
-});
-
