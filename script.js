@@ -47,7 +47,6 @@ myBtn.style.display = "block";
 contact.style.display = "block";
 }, 4500)
 
-
 // Sticky scrollbar
 
 header.classList.toggle("sticky", window.scrollY > 100);
@@ -104,7 +103,7 @@ form.addEventListener("submit", (e) => {
 
 // text
 const typed = new Typed(".multiple-text", {
-  strings: ["Frontend Developer", "Web Developer","React.js Developer"],
+  strings: ["Frontend Developer", "Web Developer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
@@ -164,7 +163,15 @@ document.addEventListener('DOMContentLoaded', () => {
         projectDesc: "The Quiz Application, built with HTML, CSS, and JavaScript, offers an interactive platform for users to test their knowledge through various quizzes. It features real-time feedback and user-friendly navigation.",
         projectGithubLink: "https://github.com/ManthanJadhav1809/Quiz_application",
         projectDemoLink: "https://manthanjadhav1809.github.io/Quiz_application/",
-    }
+    },
+    {
+      projectId: 7,
+      projectImageUrl: "Images/project/CRUDAPP.png",
+      projectTitle: "MERN Stack CRUD Application",
+      projectDesc: "Developed a full-stack CRUD application using the MERN stack (MongoDB, Express.js, React.js, Node.js), featuring responsive design and secure API endpoints, hosted on Vercel.",
+      projectGithubLink: "https://github.com/ManthanJadhav1809/MernStackCRUDApp",
+      projectDemoLink: "https://mern-stack-crud-frontend-l9it.vercel.app/",
+  }
   ];
   
   // Getting the container element
@@ -185,6 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <button id="projectDemo">Project Demo</button>
               </div>
           </div>
+          
       `;
 
       // Adding event listeners
@@ -200,6 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
       projectCardContainer.appendChild(projectCard);
   });
 });
+<<<<<<< HEAD
 
 
 // certification details add
@@ -256,3 +265,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+=======
+>>>>>>> ee283b1025ed3c4d4edaec30c5af8b3971852e0f
