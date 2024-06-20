@@ -208,7 +208,6 @@ document.addEventListener('DOMContentLoaded', () => {
       projectCardContainer.appendChild(projectCard);
   });
 });
-<<<<<<< HEAD
 
 
 // certification details add
@@ -265,5 +264,3 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-=======
->>>>>>> ee283b1025ed3c4d4edaec30c5af8b3971852e0f
