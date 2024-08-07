@@ -171,6 +171,13 @@ document.addEventListener('DOMContentLoaded', () => {
       projectDesc: "Developed a full-stack CRUD application using the MERN stack (MongoDB, Express.js, React.js, Node.js), featuring responsive design and secure API endpoints, hosted on Vercel.",
       projectGithubLink: "https://github.com/ManthanJadhav1809/MernStackCRUDApp",
       projectDemoLink: "https://mern-stack-crud-frontend-l9it.vercel.app/",
+  },{
+    projectId: 8,
+    projectImageUrl: "Images/project/RockPaperScissor.png",
+    projectTitle: "Rock Paper Scissor Game",
+    projectDesc: "Built with React, this Rock-Paper-Scissors game offers interactive gameplay, score tracking, and a responsive design. Challenge the computer, track scores, and enjoy a smooth experience on all devices.",
+    projectGithubLink: "https://github.com/ManthanJadhav1809/RockPaperScissorGame",
+    projectDemoLink: "https://rock-paper-scissor-game-bymj.vercel.app/",
   }
   ];
   
