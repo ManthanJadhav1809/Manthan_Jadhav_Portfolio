@@ -117,7 +117,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const projectData = [
     {
-        projectId: 1,
+      projectId: 1,
+      projectImageUrl: "Images/project/garageWebsite.png",
+      projectTitle: "Jyothrling Automobile",
+      projectDesc: "Jyothrling Automobile is a responsive website featuring intuitive navigation, engaging animations, detailed service sections, and contact details. Built for a family-run garage business to enhance customer experience and accessibility.",
+      projectGithubLink: "https://github.com/ManthanJadhav1809/GarageWebsiteJyothrlingAutomobile",
+      projectDemoLink: "https://jyothrling-automobile.vercel.app/",
+  },{
+        projectId: 2,
         projectImageUrl: "Images/project/mjrentify.png",
         projectTitle: "MjRentify",
         projectDesc: "MJ Rentify is a React and Firebase web app for streamlined rental property searches, offering filters by location, area, bedrooms, and bathrooms. It includes Firestore for data storage and seamless navigation with React Router.",
@@ -125,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
         projectDemoLink: "https://mjrentify.web.app/",
     },
     {
-        projectId: 2,
+        projectId: 3,
         projectImageUrl: "Images/project/blogpostWeb.png",
         projectTitle: "BLOG POST WEBAPPLICATION",
         projectDesc: "A React and Firebase-based social media app enabling users to create, delete, update, and interact with posts. Features include user authentication, real-time data storage, dynamic post rendering, and responsive design for all devices.",
@@ -133,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
         projectDemoLink: "https://blogproject-e5ad7.web.app/",
     },
     {
-        projectId: 3,
+        projectId: 4,
         projectImageUrl: "Images/project/fileMangement.png",
         projectTitle: "FILE MANAGEMENT",
         projectDesc: "A web-based file management system using React and Firebase. Allows users to securely organize, upload, and manage files and folders. Includes features like user authentication and secure file storage.",
@@ -141,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
         projectDemoLink: "https://file-management-system-62d4a.web.app/",
     },
     {
-        projectId: 4,
+        projectId: 5,
         projectImageUrl: "Images/project/shopingWebsite.png",
         projectTitle: "Shoping_Website",
         projectDesc: "Swag_Of_India_Shoping_Website is a frontend project using HTML, CSS, and JavaScript. It features a responsive design, intuitive navigation, product listings, and user-friendly interfaces for an engaging and seamless shopping experience.",
@@ -149,7 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
         projectDemoLink: "https://manthanjadhav1809.github.io/Swag_Of_India_Shoping_Website/",
     },
     {
-        projectId: 5,
+        projectId: 6,
         projectImageUrl: "Images/project/expenseTracker.png",
         projectTitle: "Expense Tracker",
         projectDesc: "Expense Tracker is a React-based web app for managing and tracking expenses. It provides an intuitive interface for adding and viewing transaction details, helping users efficiently manage their finances.",
@@ -157,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
         projectDemoLink: "https://manthanjadhav1809.github.io/Swag_Of_India_Shoping_Website/index.html",
     },
     {
-        projectId: 6,
+        projectId: 7,
         projectImageUrl: "Images/project/quizApplication.png",
         projectTitle: "Quiz Application",
         projectDesc: "The Quiz Application, built with HTML, CSS, and JavaScript, offers an interactive platform for users to test their knowledge through various quizzes. It features real-time feedback and user-friendly navigation.",
@@ -165,14 +172,14 @@ document.addEventListener('DOMContentLoaded', () => {
         projectDemoLink: "https://manthanjadhav1809.github.io/Quiz_application/",
     },
     {
-      projectId: 7,
+      projectId: 8,
       projectImageUrl: "Images/project/CRUDAPP.png",
       projectTitle: "MERN Stack CRUD Application",
       projectDesc: "Developed a full-stack CRUD application using the MERN stack (MongoDB, Express.js, React.js, Node.js), featuring responsive design and secure API endpoints, hosted on Vercel.",
       projectGithubLink: "https://github.com/ManthanJadhav1809/MernStackCRUDApp",
       projectDemoLink: "https://mern-stack-crud-frontend-l9it.vercel.app/",
   },{
-    projectId: 8,
+    projectId: 9,
     projectImageUrl: "Images/project/RockPaperScissor.png",
     projectTitle: "Rock Paper Scissor Game",
     projectDesc: "Built with React, this Rock-Paper-Scissors game offers interactive gameplay, score tracking, and a responsive design. Challenge the computer, track scores, and enjoy a smooth experience on all devices.",
