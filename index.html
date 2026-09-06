@@ -1328,17 +1328,37 @@
       return 'center';
     }
 
-    document.addEventListener('mousemove', e => {
+    function lookAt(clientX, clientY) {
       const direction = getDirection(
-        e.clientX / window.innerWidth,
-        e.clientY / window.innerHeight
+        clientX / window.innerWidth,
+        clientY / window.innerHeight
       );
-
       if (direction === currentDirection) return;
-
       currentDirection = direction;
       avatar.src = imgs[direction];
-    });
+    }
+
+    function lookAtTouch(event) {
+      const touch = event.touches[0];
+      if (!touch) return;
+      lookAt(touch.clientX, touch.clientY);
+    }
+
+    window.addEventListener('mousemove', (event) => {
+      lookAt(event.clientX, event.clientY);
+    }, { passive: true });
+
+    window.addEventListener('touchstart', lookAtTouch, { passive: true });
+    window.addEventListener('touchmove', lookAtTouch, { passive: true });
+    window.addEventListener('touchend', () => {
+      if (currentDirection === 'center') return;
+      currentDirection = 'center';
+      avatar.src = imgs.center;
+    }, { passive: true });
+    window.addEventListener('touchcancel', () => {
+      currentDirection = 'center';
+      avatar.src = imgs.center;
+    }, { passive: true });
 
     // Handle image loading failure
     avatar.addEventListener('error', () => {
